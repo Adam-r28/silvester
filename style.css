@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+  background: rgb(238, 174, 202);
+  background: linear-gradient(
+    207deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(82, 152, 234, 1) 92%
+  );
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  position: fixed;
+  right: 20%;
+  top: 15%;
+  bottom: 70%;
+}
+
+h1 {
+  width: 300px;
+  height: 300px;
+  position: fixed;
+  left: 20%;
+  top: 25%;
+  bottom: 70%;
+  color: aliceblue;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+}
+
+p {
+  width: 300px;
+  height: 300px;
+  position: fixed;
+  left: 20%;
+  top: 35%;
+  bottom: 70%;
+  color: aliceblue;
+  font-family: "Lato", sans-serif;
+  text-align: justify;
+}
+
+.circle {
+  height: 350px;
+  width: 350px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
